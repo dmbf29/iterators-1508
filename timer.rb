@@ -16,8 +16,8 @@ timer do
   puts "...finished"
 end
 
-# timer do
-#   puts "Starting the block (slow)..."
-#   sleep(3)
-#   puts "...finished"
-# end
+timer do
+  puts "Starting the block (slow)..."
+  sleep(3)
+  puts "...finished"
+end
